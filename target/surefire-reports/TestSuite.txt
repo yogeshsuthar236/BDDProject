@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 160.877 s <<< FAILURE! - in TestSuite
+Testcases.Newsletter_locator_TC.Newsletter_Locator  Time elapsed: 6.47 s  <<< FAILURE!
+java.lang.AssertionError: expected [Newsletter] but found [404: Page Not Found | Mailchimp]
+	at Testcases.Newsletter_locator_TC.Newsletter_Locator(Newsletter_locator_TC.java:42)
+
+Testcases.Loginpage_TC.Loginpage  Time elapsed: 21.433 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='customer_logout_link']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MT-10CHR93', ip: '192.168.157.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.35 (8df3babf8da8f..., userDataDir: C:\Users\M1073149\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ebafb70f669beca1241c38f8bccebcf
+*** Element info: {Using=xpath, value=//a[@id='customer_logout_link']}
+	at Testcases.Loginpage_TC.Loginpage(Loginpage_TC.java:66)
+
